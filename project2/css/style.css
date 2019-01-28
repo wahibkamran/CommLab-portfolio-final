@@ -1,0 +1,177 @@
+/*fade in/fade out taken from: https://codepen.io/ribluc/pen/XjdOyE*/
+/* button taken from: http://jsfiddle.net/meetaaronsilber/RN63Y/*/
+
+body {
+  font-family: 'Mali', cursive;
+  color: #3A474D;
+}
+
+#hovertxt{
+  position: block;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+
+#dispIMG{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#container {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#containerSure {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+
+#container02 {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#container1 {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#container2 {
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+#submit {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+.button {
+    font-family: 'Mali', cursive;
+    display: flex;
+    justify-content: center;
+    margin:5px;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+} 
+
+.button span {
+    background-color: #E8E8E8;
+    
+    background-image: 
+
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    
+    color: #3A474D;
+    text-transform: uppercase;
+   
+    font-weight: 700;
+    font-size: 24px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+}
+
+        .button span:hover {
+            color: #AEBF3B;
+            text-shadow: 0px -1px #97A63A;
+            cursor: pointer;
+        }
+
+        .button:active {
+            -webkit-box-shadow: 
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }

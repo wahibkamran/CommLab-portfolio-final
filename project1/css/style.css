@@ -1,0 +1,423 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Trirong', serif;
+	font-size: 15px;
+	color:#e1e8f0;
+	background-color: #bcd5d1;
+}
+
+.topBanner {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 40px;
+	background-color: #173e43;
+	padding: 20px;
+	margin: 0px;
+	width: 100%;
+	height: 65px;
+	text-indent:3%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;	
+}
+
+.headfoto{
+	position: fixed;
+	left: 770px;
+	top:5px;
+	width:180px;
+	height: 90px;
+	z-index: 2;
+}
+
+.test{
+	background-color: #173e43;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 1391px;
+	height: 65px;
+	position: fixed;
+	top:100px;
+	left:-10px;
+	z-index: 2;
+}
+
+.heading1 {
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px;
+	margin:0px;
+	width: 310px;
+	height: 20px;
+	text-indent:3%;
+	color: white;
+	position:fixed;
+	left:25px;
+	top:110px;
+	z-index: 3;
+}
+
+.heading2 {
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 50px;
+	height: 20px;
+	color: white;
+	position: fixed;
+	left: 300px;
+	top:110px;
+	z-index: 3;
+
+}
+
+.heading3 {
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+	height: 20px;
+	color: white;
+	position: fixed;
+	left: 430px;
+	top:110px;
+	z-index: 3;
+}
+
+.heading4 {
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 200px;
+	height: 20px;
+	color: white;
+	position: fixed;
+	left: 650px;
+	top:110px;
+	z-index: 3;
+}
+
+.heading5 {
+	font-family: 'Cinzel', serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+	height: 20px;
+	color: white;
+	position: fixed;
+	left: 930px;
+	top:110px;
+	z-index: 3;
+}
+
+.test1{
+	position: absolute;
+	top:0px;
+}
+
+.subHead1{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 260px;
+	height: 20px;
+	font-weight: bold;
+	position: absolute;
+	left: 700px;
+	top:225px;
+}
+
+.aboutPara{
+	font-size:20px;
+	padding: 0px;
+	margin: 0px;
+	width:660px;
+	height: 200px;
+	color: #262216;
+	position: absolute;
+	left: 700px;
+	top:280px;	
+}
+
+.subHead2{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 150px;
+	height: 20px;
+	font-weight: bold;
+	position: absolute;
+	left: 640px;
+	top:670px;
+}
+
+.test2{
+	position: absolute;
+	top:560px;
+	left: 0px;
+	width:30px;
+}
+
+.person1{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 500px;
+	height: 20px;
+	/*float: left;*/
+	position: absolute;
+	left: 70px;
+	top:750px;
+}
+
+.foto1{
+	position: absolute;
+	left: 80px;
+	top:790px;
+	border-radius: 50%;
+}
+
+.person2{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 170px;
+	height: 20px;
+	/*float: left;*/
+	position: absolute;
+	left: 605px;
+	top:750px;
+}
+
+.foto2{
+	position: absolute;
+	left: 570px;
+	top:790px;
+	border-radius: 50%;
+}
+
+.person3{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 330px;
+	height: 20px;
+	/*float: left;*/
+	position: absolute;
+	left: 1000px;
+	top:750px;
+}
+
+.foto3{
+	position: absolute;
+	left: 1060px;
+	top:790px;
+	border-radius: 50%;
+}
+
+.video-container{
+	position: absolute;
+	left: 50px;
+	top:230px;
+}
+
+.p1deet{
+	font-size:20px;
+	padding: 0px;
+	margin: 0px;
+	width:320px;
+	height: 190px;
+	color: #262216;
+	position: absolute;
+	left: 40px;
+	top:1000px;	
+}
+
+.p2deet{
+	font-size:20px;
+	padding: 0px;
+	margin: 0px;
+	width:320px;
+	height: 190px;
+	color: #262216;
+	position: absolute;
+	left: 520px;
+	top:1000px;	
+}
+
+.p3deet{
+	font-size:20px;
+	padding: 0px;
+	margin: 0px;
+	width:320px;
+	height: 190px;
+	color: #262216;
+	position: absolute;
+	left: 1005px;
+	top:1000px;	
+}
+
+.subHead3{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 200px;
+	height: 20px;
+	font-weight: bold;
+	position: absolute;
+	left: 580px;
+	top:1250px;
+}
+
+.test3{
+	position: absolute;
+	top:1045px;
+}
+
+.tckts{
+	font-size: 30px;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 1000px;
+	height: 20px;
+	position: absolute;
+	left: 350px;
+	top:1330px;
+}
+
+.lnk{
+	font-size: 30px;
+	text-decoration: none;
+	color: #DC143C;
+	padding: 0px;
+	margin: 0px;
+	width: 500px;
+	height: 20px;
+	position: absolute;
+	left: 700px;
+	top:1330px;	
+}
+
+.bloop-container{
+	position: absolute;
+	left: 400px;
+	top:1600px;
+}
+
+.subHead4{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 300px;
+	height: 20px;
+	font-weight: bold;
+	position: absolute;
+	left: 530px;
+	top:1530px;
+}
+
+.test4{
+	position: absolute;
+	top:1262px;
+}
+
+.flm{
+	position: absolute;
+	left: 450px;
+	top:1430px;
+}
+
+.fln{
+	position: absolute;
+	left: 450px;
+	top:1160px;
+}
+
+.bottomBanner {
+	background-color: #173e43;
+	padding: 0px;
+	margin: 0px;
+	width: 1380px;
+	height: 110px;
+	text-indent:3%;
+	position: absolute;
+	top: 2000px;
+	left: 0px;
+	z-index: 3;	
+}
+
+
+.bttm{
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	font-weight: bold;
+	text-indent:3%;
+	position: absolute;
+	top: 2030px;
+	left: 0px;
+	z-index: 4;
+	width: 300px;
+}
+
+.bottomText {
+	font-family: 'Cinzel', serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	padding: 30px;
+	margin: 0px;
+	width: 70px;
+	height: 20px;
+	position: absolute;
+	left: 1250px;
+	top:2000px;
+	z-index: 4;
+}
+
+.endline {
+	font-size: 25px;
+	color: white;
+	padding: 30px;
+	margin: 0px;
+	width: 400
+	height: 20px;
+	position: absolute;
+	left: 550px;
+	top:2000px;
+	z-index: 4;
+}
+
+.end{
+	position: absolute;
+	left: 450px;
+	top:2000px;	
+	z-index: 5;
+}

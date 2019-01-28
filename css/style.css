@@ -1,0 +1,228 @@
+body{
+	color: white;
+	font-size: 27px;
+	font-family: 'Questrial', sans-serif;
+	text-decoration: none;
+	margin: 0px;
+}
+
+.section{
+	background-image: url("7.jpg");
+	background-width:100%;
+	display: flex;
+	min-height: 100vh;
+	max-height: 100vh;
+	min-width: 100%;
+}
+
+.head{
+	width:100%;	
+	height: 20%;
+	z-index: 2;
+}
+
+.dp{
+	position: absolute;
+    left: 5%;
+    top: 7%;
+	max-width: 25%;
+	border-radius: 50%;
+}
+
+.headings{
+	font-family: 'Sancreek', cursive;
+	font-size: 40px;
+	text-align: center;
+}
+
+.head1{
+	font-family: 'Sancreek', cursive;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	top: 22%;
+	left:30%;
+}
+
+.About{
+	position:absolute;
+	left: 36%;
+	top:5%;
+	width:60%;
+}
+
+.changeFont{
+	font-family: 'Sancreek', cursive;	
+}
+
+.gifs{
+	opacity: 0;
+	width:10%;
+}
+
+.firstImgs{
+	position: absolute;
+	top: 28%;
+	left:16%;
+	width: 15%;
+	z-index: 2;
+}
+
+.hvr{
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 26%;
+	left:20.5%;	
+}
+
+.hvr2{
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 47%;
+	left:20.5%;	
+}
+
+.hvr3{
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 67%;
+	left:20.5%;	
+}
+
+.hvr4{
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	position: absolute;
+	top: 86%;
+	left:20.5%;	
+}
+
+.des1{
+	position: absolute;
+	top: 27%;
+	left:50%;
+	width: 48%;	
+	color: inherit;
+	text-decoration: none;
+}
+
+.head2{
+	font-family: 'Sancreek', cursive;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	top: 43%;
+	left:30%;
+}
+
+.secondImgs{
+	position: absolute;
+	top: 49%;
+	left:16%;
+	width: 15%;
+	z-index: 2;
+}
+
+.des2{
+	position: absolute;
+	top: 48%;
+	left:50%;
+	width: 48%;	
+}
+
+.head3{
+	font-family: 'Sancreek', cursive;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	top: 63%;
+	left:30%;
+}
+
+.thirdImgs{
+	position: absolute;
+	top: 69%;
+	left:16%;
+	width: 15%;
+	z-index: 2;
+}
+
+.des3{
+	position: absolute;
+	top: 68%;
+	left:50%;
+	width: 48%;	
+}
+
+.fourImgs{
+	position: absolute;
+	top: 88%;
+	left:16%;
+	width: 15%;
+	z-index: 2;
+}
+
+.head4{
+	font-family: 'Sancreek', cursive;
+	font-size: 40px;
+	text-align: center;
+	position: absolute;
+	top: 82%;
+	left:30%;
+}
+
+.des4{
+	position: absolute;
+	top: 87%;
+	left:50%;
+	width: 48%;	
+}
+
+.doc{
+	position: absolute;
+	color: yellow;
+	font-family: 'Sancreek', cursive;
+	text-decoration: none;
+	padding: 2%;
+	left: 25%;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.doc:hover{
+	color: green;
+}
+
+.firstImgs:hover {
+	transition: all .3s ease-in-out;
+	transform:scale(3.3);
+	transform-origin: top;
+}
+	
+.secondImgs:hover {
+	transition: all .3s ease-in-out;
+	transform:scale(3.3);
+	transform-origin: top;
+}
+
+.thirdImgs:hover {
+	transition: all .3s ease-in-out;
+	transform:scale(3.3);
+	transform-origin: top;
+}
+
+.fourImgs:hover {
+	transition: all .3s ease-in-out;
+	transform:scale(3.2);
+	transform-origin: top;
+}
+
+.foot{
+	position: absolute;
+	width:100%;
+	left: 0%;
+	top: 100%
+}

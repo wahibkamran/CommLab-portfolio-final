@@ -1,0 +1,154 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	background-color:black;
+}
+
+/*scene1*/
+
+.imgs{
+	margin:0 auto;
+	text-align:center;
+}
+
+
+
+.radio{
+	position:absolute;
+	width:23%;
+	z-index:2;
+	top:51%;
+	left:50.5%;
+	transform:translate(-50%,-50%);
+}
+
+.wave{
+	position:absolute;
+	width:66%;
+	border:0px solid #ebb329;
+	left:50%;
+	top:52%;
+	transform:translate(-50%,-50%);
+
+}
+
+/*scene 2*/
+.party{
+	position:absolute;
+	width:40%;
+	z-index:2;
+	top:52%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+.home{
+	position:absolute;
+	width:40%;
+	z-index:2;
+	top:52%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.button {
+	text-decoration: none;
+	left: 47%;
+	margin: 20px;
+	z-index: 3;
+    font-family: 'Mali', cursive;
+    display: flex;
+    justify-content: center;
+    
+    -webkit-border-radius: 10px;
+    
+    -webkit-box-shadow: 
+        0px 3px rgba(128,128,128,1), /* gradient effects */
+        0px 4px rgba(118,118,118,1),
+        0px 5px rgba(108,108,108,1),
+        0px 6px rgba(98,98,98,1),
+        0px 7px rgba(88,88,88,1),
+        0px 8px rgba(78,78,78,1),
+    
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+} 
+
+.button span {
+    background-color: #E8E8E8;
+    
+    background-image: 
+
+        
+        /* dark outside gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(210,210,210,0.3)), 
+            color-stop(20%,rgba(210,210,210,0)), 
+            color-stop(80%,rgba(210,210,210,0)), 
+            color-stop(100%,rgba(210,210,210,0.3))),
+        
+        /* light inner gradient */
+        -webkit-gradient(
+            linear, 
+            left top, 
+            right top, 
+            color-stop(0%,rgba(255,255,255,0)), 
+            color-stop(20%,rgba(255,255,255,0.5)), 
+            color-stop(80%,rgba(255,255,255,0.5)), 
+            color-stop(100%,rgba(255,255,255,0))),        
+        
+
+    
+        -webkit-box-shadow:
+            0px -1px #fff, /* top highlight */
+            0px 1px 1px #FFFFFF; /* bottom edge */
+    
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    
+    -webkit-border-radius: 10px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    
+    color: #3A474D;
+    text-transform: uppercase;
+   
+    font-weight: 700;
+    font-size: 24px;
+    
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+}
+
+        .button span:hover {
+            color: #AEBF3B;
+            text-shadow: 0px -1px #97A63A;
+            cursor: pointer;
+        }
+
+        .button:active {
+            -webkit-box-shadow: 
+                0px 3px rgba(128,128,128,1),
+                0px 4px rgba(118,118,118,1),
+                0px 5px rgba(108,108,108,1),
+                0px 6px rgba(98,98,98,1),
+                0px 7px rgba(88,88,88,1),
+                0px 8px rgba(78,78,78,1),
+                0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+        }
+
+        .button:active span{
+            -webkit-transform: translate(0, 5px); /* depth of button press */
+        }
